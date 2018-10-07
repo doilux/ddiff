@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/codemirror/lib/codemirror.js"></script>
+    <script src="bower_components/mergely/mergely.min.js"></script>
+
+    <link type="text/css" rel="stylesheet" href="bower_components/codemirror/lib/codemirror.css" />
+    <link type="text/css" rel="stylesheet" href="bower_components/mergely/mergely.css" />
+
+    <title>DDDIFF</title>
+  </head>
+  <body>
+    <div class="mergely-full-screen-8">
+      <div class="mergely-resizer">
+        <div id="mergely"></div>
+      </div>
+    </div>
+    <script>
+      $(document).ready(function () {
+        $('#mergely').mergely({
+          width: '750',
+          height: '550',
+          cmsettings: {
+            readOnly: false
+          },
+          lhs: function (setValue) {
+            setValue('日本語でも\nちゃんとdiff\nできますか？\n編集もできたりしますか？');
+          },
+          rhs: function (setValue) {
+            setValue('日本語でも\nちゃんとdiff\nできる\n編集もできるので\n何か入力してみてね！');
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
