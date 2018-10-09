@@ -1,0 +1,21 @@
+{
+  "name": "dddiff",
+  "description": "",
+  "main": "main.js",
+  "authors": [
+    "doilux"
+  ],
+  "license": "LGPL",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "mergely": "^3.3.6",
+    "jquery": "^2.1.0"
+  }
+}
