@@ -3,7 +3,16 @@ Diff Tool
 
 ## Usage
 
-## How To Deploy
+## How To Build
+
+### Install Dependence Libraries
+
+```
+cd src
+npm install
+bower install
+```
+
 ### Change Icons
 
 ```
