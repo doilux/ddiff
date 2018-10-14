@@ -1,15 +1,14 @@
-# DDDIF
+# DDIF
 Diff Tool
 
 ## Usage
-Move dddiff-darwin-x64/dddiff.app to application directory.
 
 ## How To Deploy
 ### Change Icons
 
 ```
 npm install -g electron-icon-maker
-electron-icon-maker --input=./images/dddiff.png --output=.
+electron-icon-maker --input=./images/ddiff.png --output=.
 ```
 
 ### Package App
