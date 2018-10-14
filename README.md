@@ -15,7 +15,7 @@ electron-icon-maker --input=./images/ddiff.png --output=.
 
 ```
 npm install electron-packager -g
-electron-packager --overwrite ./src dddiff --platform=darwin --arch=x64 --electronVersion=3.0.3 --icon=icons/mac/icon.icns
+electron-packager --overwrite ./src ddiff --platform=darwin --arch=x64 --electronVersion=3.0.3 --icon=icons/mac/icon.icns
 ```
 
 ## Licence
